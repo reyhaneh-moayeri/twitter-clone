@@ -14,14 +14,14 @@
             </div>
           </div>
           <!-- Main content  -->
-          <!-- <main class="col-span-12 bg-red-500 md:col-span-8 xl:col-span-6">
-            hi
-          </main> -->
+          <main class="col-span-12 md:col-span-8 xl:col-span-6">
+            <router-view></router-view>
+          </main>
 
           <!-- Right Sidebar  -->
 
           <div
-            class="border-1 border-red md:block col-span-12 xl:col-span-4 md:col-span-3 bg-blue-500"
+            class="border-1 hidden border-red md:block col-span-12 xl:col-span-4 md:col-span-3"
           >
             <div class="sticky top-0">
               <SidebarRight />

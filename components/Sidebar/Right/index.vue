@@ -66,5 +66,15 @@ const whoToFollowItem = ref([
     handle: "@joeBiden",
     image: "https://picsum.photos/200/200 ",
   },
+  {
+    name: "Joe Biden",
+    handle: "@joeBiden",
+    image: "https://picsum.photos/200/200 ",
+  },
+  {
+    name: "Joe Biden",
+    handle: "@joeBiden",
+    image: "https://picsum.photos/200/200 ",
+  },
 ]);
 </script>
