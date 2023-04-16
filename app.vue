@@ -1,7 +1,7 @@
 <template>
   <div :class="{ dark: darkMode }">
     <div class="bg-white dark:bg-dim-900">
-      <div v-if="false" class="min-h-full">
+      <div v-if="user" class="min-h-full">
         <div
           class="grid grid-cols-12 mx-auto sm:px-6 lg:max-w-7xl lg:px-8 lg:gap-5"
         >
@@ -37,4 +37,8 @@
 
 <script lang="ts" setup>
 const darkMode = ref(false);
+
+const { useAuthUser } = useAuth();
+
+const user = useAuthUser();
 </script>
